@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace Factory
+namespace FactoryMethod
 {
     class Program
     {
         static void Main(string[] args)
         {
             TransportFactory currentFactory;
-            Transport currentTransport; 
+            Transport currentTransport;
 
             currentFactory = new TruckFactory();
             currentTransport = currentFactory.CreateTransport();
@@ -43,7 +43,7 @@ namespace Factory
             Console.WriteLine("Ship is delivering something...");
         }
     }
-    
+
     class Plane : Transport
     {
         public override void Deliver()
