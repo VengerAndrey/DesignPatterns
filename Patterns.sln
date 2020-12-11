@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Comp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{3D323F88-F96C-4AD8-AE48-A1020A267298}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{4A3EBD57-6D47-442B-8021-9294D53DC689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{CD191FA2-BDD8-41B9-9CD3-36221CE53F6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +89,10 @@ Global
 		{3D323F88-F96C-4AD8-AE48-A1020A267298}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D323F88-F96C-4AD8-AE48-A1020A267298}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D323F88-F96C-4AD8-AE48-A1020A267298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD191FA2-BDD8-41B9-9CD3-36221CE53F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD191FA2-BDD8-41B9-9CD3-36221CE53F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD191FA2-BDD8-41B9-9CD3-36221CE53F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD191FA2-BDD8-41B9-9CD3-36221CE53F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +110,7 @@ Global
 		{67DD7C89-B768-4AEC-BB53-B8DEA2C1E49F} = {3FA17627-1ED0-4517-BD8A-3EBF25441387}
 		{F1D9ECAA-6523-479A-8791-A5DA1703CFC5} = {3FA17627-1ED0-4517-BD8A-3EBF25441387}
 		{3D323F88-F96C-4AD8-AE48-A1020A267298} = {3FA17627-1ED0-4517-BD8A-3EBF25441387}
+		{CD191FA2-BDD8-41B9-9CD3-36221CE53F6B} = {4A3EBD57-6D47-442B-8021-9294D53DC689}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61ACA275-141E-4501-9B15-7D8DE9B630A9}
