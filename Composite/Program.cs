@@ -22,7 +22,7 @@ namespace Composite
 
             /* tests for composite + visitor
 
-            developer.Accept(new AdditionVisitor("Additional developer"));
+            developer.Accept(new AddingVisitor("Additional developer"));
 
             developer.Develop();
             */
@@ -81,11 +81,11 @@ namespace Composite
         void Visit(Team team);
     }
 
-    class AdditionVisitor : IDeveloperVisitor
+    class AddingVisitor : IDeveloperVisitor
     {
         private string name;
 
-        public AdditionVisitor(string name)
+        public AddingVisitor(string name)
         {
             this.name = name;
         }
